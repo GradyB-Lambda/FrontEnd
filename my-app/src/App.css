@@ -1,38 +1,7 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* GLOBAL styling will live inside this file.*/
+/* (i.e. styling rules here will apply to <body> tag, and be inherited everywhere.)*/
+/* (ex. of global rules: font sizes, colors, shadows, general <button>, screen size break points) */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* LOCAL styling will require separate stylesheets scoped to your component(s).*/
+/* (here's a medium post on local styling and React: https://medium.com/@seanmcp/how-and-when-to-use-bem-in-react-edabad2b805a */
