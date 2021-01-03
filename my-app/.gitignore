@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# solution to potential issue (https://stackoverflow.com/questions/48524417/should-the-package-lock-json-file-be-added-to-gitignore)
+package-lock.json
