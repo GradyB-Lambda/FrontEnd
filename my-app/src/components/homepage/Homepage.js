@@ -3,6 +3,7 @@ import axios from 'axios';
 import './Homepage.css';
 import Basemap from './Basemap.js';
 import Loading from '../loading-screen/Loading.js';
+import Footer from '../footer/Footer.js';
 
 export default function Homepage() {
     // define state
@@ -21,7 +22,8 @@ export default function Homepage() {
 
     return (
         <div className='leaflet-container'>
-            <Basemap trucksLatLng={trucksLatLng} /> 
+            <Basemap trucksLatLng={trucksLatLng} />
+            <Footer /> 
         </div>
     )
 }
