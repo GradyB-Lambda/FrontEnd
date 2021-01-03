@@ -43,12 +43,9 @@ const Login = () => {
     return(
         <div className="container">
             <div className='rowC'>
-            <Navbar />
             </div>
             <div className='formWrap'>
     
-            <img src={imageL} className="form-image" alt="Logo" />
-            <StyledLogin>
 
                 <form onSubmit={submitHandler}>
                 <div className='lable-top'></div>
@@ -77,8 +74,6 @@ const Login = () => {
                     />
                     <button type="submit">Login</button>
                 </form>
-                </StyledLogin>
-
             </div>
         </div>
        
