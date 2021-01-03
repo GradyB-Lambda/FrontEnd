@@ -5,3 +5,20 @@
 
 /* LOCAL styling will require separate stylesheets scoped to your component(s).*/
 /* (here's a medium post on local styling and React: https://medium.com/@seanmcp/how-and-when-to-use-bem-in-react-edabad2b805a */
+
+
+/* BREAK POINTS */
+@media screen and (min-width: 375px) {}
+/* IPHONE/MOBILE */
+
+@media screen and (min-width: 460px) {
+    /* SMALL TABLET */
+}
+
+@media screen and (min-width: 960px) {
+    /* LARGE TABLETS AND SMALL LAPTOPS */
+}
+
+@media screen and (min-width: 1200px) {
+    /* DESKTOP STYLES */
+}
