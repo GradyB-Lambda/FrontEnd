@@ -1,0 +1,13 @@
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* .MuiIconButton-root {
+    box-shadow: 0 1px 1px 0px gray;
+} */
