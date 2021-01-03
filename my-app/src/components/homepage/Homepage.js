@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import './Homepage.css';
-import Basemap from './Basemap';
-import Loading from '../loading-screen/Loading';
+import Basemap from './Basemap.js';
+import Loading from '../loading-screen/Loading.js';
 
 export default function Homepage() {
     // define state

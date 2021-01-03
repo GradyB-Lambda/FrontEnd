@@ -1,9 +1,10 @@
 import React from 'react';
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import { Icon } from "leaflet";
-import icon from './food-truck-icon.svg' //courtesy of Freepik. thank you!
-import './Basemap.css'
+import icon from './food-truck-icon.svg'; //courtesy of Freepik. thank you!
+import './Basemap.css';
 
+/// DEFAULT Settings
 const mapCenter = [40.758896, -73.985130]; //lat, lng
 const defaultZoom = 13;
 const customIcon = new Icon({
@@ -29,7 +30,7 @@ export default function Basemap(props) {
                 {props.trucksLatLng.map((truck, index) => {
                     return (
                         <Marker 
-                        key={index}
+                        key={truck.truck_id}
                         icon={customIcon}
                         position={[
                             truck.current_location_lat,
