@@ -5,7 +5,7 @@ import icon from './food-truck-icon.svg'; //courtesy of Freepik. thank you!
 import './Basemap.css';
 
 /// DEFAULT Settings
-const mapCenter = [40.758896, -73.985130]; //lat, lng
+const mapCenter = [40.72611, -73.99883]; //lat, lng
 const defaultZoom = 13;
 const customIcon = new Icon({
     iconUrl: icon,
