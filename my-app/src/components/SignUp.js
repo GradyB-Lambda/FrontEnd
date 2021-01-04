@@ -77,7 +77,7 @@ export default function SignUp() {
       password: formValues.password.trim(),
       email: formValues.email.trim(),
     };
-    // I don't think I need these two lines of code because I'm using schema for validation
+    // I don't need these two lines of code because I'm using schema for validation. But... Maybe it would have been more clean to use these two lines. 
     // if (!newUser.username || !newUser.password || !newUser.email)
     // return;
 
