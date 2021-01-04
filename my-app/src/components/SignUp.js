@@ -45,6 +45,7 @@ export default function SignUp() {
   const [disabled, setDisabled] = useState(true);
   // EVENT HANDLERS
   // EVENT HANDLERS
+  
   //Changes the form when form value is changed
   const updateForm = (inputName, inputValue) => {
     yup
