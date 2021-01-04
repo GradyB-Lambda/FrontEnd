@@ -116,6 +116,14 @@ export default function SignUp() {
   }, [formValues]);
 
   return (
+    <>
+    {/* This is the toggle between Sign In and Register */}
+    <nav>
+    {/* This should Link to the sign in component. Make sure path in Route matches also*/}
+      <Link to='/'>Sign In</Link>
+      <Link>Register</Link>
+    </nav>
+
     <form className="form container" onSubmit={registerUser}>
       <div className="register container">
         <label>
@@ -169,5 +177,6 @@ export default function SignUp() {
         </Route>
       </div>
     </form>
+    </>
   );
 }
