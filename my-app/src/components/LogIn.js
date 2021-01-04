@@ -46,7 +46,6 @@ export default function LogIn() {
             <div className='formWrap'>
     
           
-
                 <form onSubmit={submitHandler}>
                 <div className='lable-top'></div>
                     <input 
