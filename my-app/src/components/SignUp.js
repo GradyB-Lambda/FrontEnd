@@ -45,6 +45,7 @@ export default function SignUp() {
   const [disabled, setDisabled] = useState(true);
   // EVENT HANDLERS
   // EVENT HANDLERS
+  
   //Changes the form when form value is changed
   const updateForm = (inputName, inputValue) => {
     yup
@@ -77,7 +78,7 @@ export default function SignUp() {
       password: formValues.password.trim(),
       email: formValues.email.trim(),
     };
-    // I don't think I need these two lines of code because I'm using schema for validation
+    // I don't need these two lines of code because I'm using schema for validation. But... Maybe it would have been more clean to use these two lines. 
     // if (!newUser.username || !newUser.password || !newUser.email)
     // return;
 
@@ -115,6 +116,14 @@ export default function SignUp() {
   }, [formValues]);
 
   return (
+    <>
+    {/* This is the toggle between Sign In and Register */}
+    <nav>
+    {/* This should Link to the sign in component. Make sure path in Route matches also*/}
+      <Link to='/'>Sign In</Link>
+      <Link>Register</Link>
+    </nav>
+
     <form className="form container" onSubmit={registerUser}>
       <div className="register container">
         <label>
@@ -168,5 +177,6 @@ export default function SignUp() {
         </Route>
       </div>
     </form>
+    </>
   );
 }
